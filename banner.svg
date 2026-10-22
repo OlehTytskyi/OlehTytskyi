@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a192f"/>
+      <stop offset="40%" style="stop-color:#112240"/>
+      <stop offset="100%" style="stop-color:#1a3a5c"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e6b5a;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#2d8f7b;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#1e6b5a;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1b5e50;stop-opacity:0.5"/>
+      <stop offset="50%" style="stop-color:#257a6a;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#1b5e50;stop-opacity:0.5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="25%" r="30%">
+      <stop offset="0%" style="stop-color:#2d8f7b;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#0a192f;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <path d="M0,240 C200,220 400,260 600,235 C800,210 1000,250 1200,230 L1200,300 L0,300 Z" fill="url(#wave2)"/>
+  <path d="M0,255 C150,240 350,270 550,250 C750,230 950,265 1200,248 L1200,300 L0,300 Z" fill="url(#wave1)"/>
+  <path d="M0,270 C200,258 400,280 600,265 C800,250 1000,275 1200,262 L1200,300 L0,300 Z" fill="#1e6b5a" opacity="0.4"/>
+
+  <text x="600" y="115" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" fill="#e6f1ff" text-anchor="middle" letter-spacing="6">OLEH TYTSKYI</text>
+  <text x="600" y="160" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" fill="#8892b0" text-anchor="middle" letter-spacing="3">Senior Full-Stack Developer</text>
+
+  <line x1="480" y1="180" x2="720" y2="180" stroke="#2d8f7b" stroke-width="1" opacity="0.5"/>
+
+  <text x="600" y="210" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" fill="#64ffda" text-anchor="middle" letter-spacing="4" opacity="0.8">TYPESCRIPT  ·  REACT  ·  NODE.JS  ·  NESTJS  ·  AWS</text>
+</svg>
