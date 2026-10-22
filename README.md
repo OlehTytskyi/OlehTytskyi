@@ -39,7 +39,7 @@ d5b7e14  test: E2E coverage with Cypress - caught 12 edge cases before prod
 - Asking "why" before writing a single line of code
 - Deploying on Friday if the tests are green
 - Making architecture decisions based on data, not hype
-- Leaving code cleaner than I found it — every single commit
+- Leaving code cleaner than I found it - every single commit
 
 ## currently
 
